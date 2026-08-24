@@ -55,11 +55,15 @@ body{
     font-family: cursive;
     text-shadow: 2px 2px 2px #000;
 }
+#hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
 
 #hero-content a{
     color: #ffffff;
     padding: 3px 20px 3px 20px;
-    border: 1px solid #C89B3C
+    border: 1px solid #C89B3C;
     background: rgb(0, 0, 0, 0.6);
     font-size: 1.5rem;
     text-decoration: none;
@@ -121,8 +125,10 @@ body{
     color: #173B2F;
     font-size: 1.1rem;
     padding: 5px 15px 5px 15px;
-    border: 1px solid rgb(255, 69, 0);
+    border: 2px solid #173B2F;
     border-radius: 25px;
+    margin-top: 5rem;
+    background-color: #df962a;
 }
 #order a:hover{
      background-color: rgb(230, 143, 38);
