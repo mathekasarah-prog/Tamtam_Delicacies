@@ -445,8 +445,28 @@ body{
         flex-wrap: wrap;
         padding: 0 10px 0 10px;
     }
-    
+
+    .services {
+        padding: 70px 15px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .section-description {
+        font-size: 15px;
+    }
+
+    .service-image {
+        height: 200px;
+    }
 }
+    
 @media screen and(max-width : 360px) {
     html{
         font-size: 70%;
