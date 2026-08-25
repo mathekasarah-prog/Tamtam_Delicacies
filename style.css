@@ -389,3 +389,44 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+@media screen and(max-width : 768px) {
+
+    #header{
+        position: absolute;
+    }
+    #mobile-menu{
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+
+    #menu-row, #about-row, #contact-row{
+        flex-wrap: wrap;
+        padding: 0 10px 0 10px;
+    }
+    
+}
+@media screen and(max-width : 360px) {
+    html{
+        font-size: 70%;
+    }
+
+    #about-img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
