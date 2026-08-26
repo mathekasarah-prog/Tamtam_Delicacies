@@ -450,6 +450,14 @@ body{
     margin: 5px;
 
 }
+#chef-introduction{
+    font-family: cursive;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
 #img{
     width: 200px;
     height: 250px;
@@ -465,22 +473,34 @@ body{
 #contact{
     padding: 25px 0 25px 0;
 }
+
+.contact-container h2{
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+
+}
+.contact-info{
+    display: inline-block;
+    left: 0;
+}
 #contact-row{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 100px 0 100px;
     flex-wrap: wrap;
+    left: 0;
 }
 .contact-col{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     flex: 1;
 }
 .contact-col p,h3{
     font-weight: bold;
-    color: ;#292929;
+    color: #292929;
     margin: 10px;
 }
 
@@ -494,7 +514,7 @@ body{
     margin: 3px;
 }
 .contact-col form{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     background-color: magenta;
     width: 70%;
