@@ -166,10 +166,6 @@ body{
 
 /*about section*/
 
-/* ================================
-   ABOUT SECTION
-================================ */
-
 .about {
     background-color: #fff8ec;
     padding: 100px 20px;
@@ -297,47 +293,6 @@ body{
 
     transform: translateY(-2px);
 }
-
-
-/*
-#about-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 100px 0 100px;
-
-}
-.about-col{
-    flex: 1;
-
-}
-#about-img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: auto;
-}
-
-#about-img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: fill;
-}
-.about-col h2{
-    text-align: center;
-    font-family: cursive;
-
-}
-.about-col p{
-    text-align: justify;
-    font-family: cursive;
-    font-weight: normal;
-}
-
-*/
-
 
 
 /*services section*/
@@ -579,7 +534,7 @@ body{
 
 
 
-
+/*media Queries*/
 
 @media screen and(max-width : 768px) {
 
