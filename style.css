@@ -97,7 +97,7 @@ body{
     margin-right: 30px;
 }
 #navbar h1{
-    color: #173B2F
+    color: #173B2F;
     font-size: 1.8rem;
     text-shadow: 2px 2px 2px #000;
     display: flex;
@@ -461,7 +461,7 @@ body{
 
 .contact-col p a{
    text-decoration: none;
-    color: ;#292929;
+    color: #292929;
     
 }
 #social a{
