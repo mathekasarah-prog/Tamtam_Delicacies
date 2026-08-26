@@ -338,7 +338,7 @@ body{
     padding: 25px 0 25px 0;
 
 }
-#section{
+.section{
     padding: 25px 0 25px 0;
     text-align: center;
     font-size: 2rem;
@@ -351,7 +351,7 @@ body{
     padding: 0 100px 0 100px;
 
 }
-#menu-col{
+.menu-col{
     display: inline-block;
     box-shadow: 2px 2px 2px #bbb;
     border: 1px solid #bbb;
@@ -360,7 +360,7 @@ body{
     padding: 10px;
     flex: 1;
 }
-#menu-col h2{
+.menu-col h2{
     background-color:rgb(211, 143, 15); ;
     color: ffffff;
     text-align: center;
@@ -391,7 +391,7 @@ body{
 }
 
 /*chef-section*/
-#chef{
+.chefs{
     padding: 25px 0 25px 0;
 
 }
@@ -414,12 +414,12 @@ body{
     flex-wrap: wrap;
     font-weight: bold;
 }
-#img{
+.img{
     width: 200px;
     height: 250px;
     margin: auto;
 }
-#img img{
+.img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -571,7 +571,7 @@ body{
         font-size: 32px;
     }
 
-    .about-content .about-intro {
+    .about-content, .about-intro {
         font-size: 16px;
     }
 
