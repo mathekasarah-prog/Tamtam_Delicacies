@@ -93,6 +93,24 @@ body{
     height: 70px;
     line-height: 70px;
 }
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle span{
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #333;
+    border-radius: 2px;
+}
 #navbar{
     display: flex;
     justify-content: space-around;
@@ -579,7 +597,6 @@ body{
         flex-wrap: wrap;
         padding: 0 10px 0 10px;
     }
-    @media (max-width: 600px) {
 
     .about {
         padding: 70px 15px;
@@ -603,7 +620,7 @@ body{
         height: 42px;
         font-size: 18px;
     }
-}
+
 
     .services {
         padding: 70px 15px;
@@ -624,6 +641,31 @@ body{
     .service-image {
         height: 200px;
     }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    .navbar ul li{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .navbar ul li.active {
+    display: flex;
+  }
+
+  .navbar ul li a {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+  }
 }
     
 @media screen and(max-width : 360px) {
