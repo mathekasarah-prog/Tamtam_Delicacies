@@ -11,6 +11,7 @@ html{
 
 body{
     font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 /*hero section*/
 #hero{
@@ -77,6 +78,7 @@ body{
 
 /*header-section begins*/
 #header{
+    background-color: #292929;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -86,9 +88,9 @@ body{
 #navbar{
     display: flex;
     justify-content: space-around;
-    background: 0, 0, 0, 0.5;
-    background-color: #FFF8EC;
+    background: #c89b3c;
 }
+
 #navbar img{
     width: 100px;
     height: 100px;
@@ -96,38 +98,34 @@ body{
     left: 0;
     margin-right: 30px;
 }
-#navbar h1{
+#navbar h2{
     color: #173B2F;
     font-size: 1.8rem;
     text-shadow: 2px 2px 2px #000;
-    display: flex;
-    font-family: cursive;
-    justify-content: space-around;
-    margin-left: 30px;
+    font-family: cursive, sans-serif;
 }
 #navbar ul{
     display: flex;
-    align-items: center;
+}
+
+#navbar ul li{
+   list-style: none;
+    padding: 3px 15px 3px 15px;
+    font-size: 1.2rem;
+    transition: 0.15s;
 
 }
-#navbar ul li{
-    flex: none;
-    list-style: none;
-    padding: 3px 15px 3px 15px;
-}
-#navbar ul li:hover,#order a:hover{
+
+#navbar ul li:hover,#order a:hover, #mobile-menu ul li:hover{
     background: #df962a;
     cursor: pointer;
     opacity: 0.8;
 }
+
 #navbar ul li a{
-    display: inline;
-    padding: 8px 16px;
     text-decoration: none;
     color: #173B2F;
     font-size: 1.1rem;
-    width: auto;
-    height: auto;
 }
 #order a{
     text-decoration: none;
@@ -135,16 +133,9 @@ body{
     font-size: 1.1rem;
     padding: 5px 15px 5px 15px;
     border: 2px solid #173B2F;
-    border-radius: 25px;
-    margin-top: 5rem;
-    background-color: #df962a;
-    transition: 0.15s ease;
+    
 }
-#order a:hover{
-     background-color: rgb(230, 143, 38);
-     cursor: pointer;
-     opacity: 0.7;
-}
+
 #mobile-menu{
     display: none;
     height: 40px;
