@@ -73,10 +73,15 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: 25px;
+    transition: 0.15s;
 }
 
 #hero-content a:hover{
-    background-color: #1c1a17
+    background-color:#C89B3C;  
+
+}
+#hero-content a:active{
+    background-color: #33a982;
 }
 
 /*header-section begins*/
@@ -125,6 +130,10 @@ body{
     opacity: 0.8;
 }
 
+#navbar ul li:active, #order a:active, #mobile-menu ul li:active{
+    background-color: #2929299a;
+}
+
 #navbar ul li a{
     text-decoration: none;
     color: #173B2F;
@@ -136,6 +145,7 @@ body{
     font-size: 1.1rem;
     padding: 5px 15px 5px 15px;
     border: 2px solid #173B2F;
+    border-radius: 25px;
     
 }
 
@@ -423,6 +433,8 @@ body{
     text-align: center;
     flex-wrap: wrap;
     font-weight: bold;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .img{
     width: 200px;
