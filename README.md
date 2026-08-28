@@ -82,11 +82,11 @@ To install V card,follow the following steps:
 git clone https://github.com/mathekasarah-prog/tamutamu-delicacies.git
 
 ###Homepage
-c:\Users\Sarah Matheka\OneDrive\Pictures\Screenshots\Screenshot 2026-08-28 113250.png
+Images/Screenshot 2026-08-28 113250.png
 
 
 ###Menu section
-c:\Users\Sarah Matheka\OneDrive\Pictures\Screenshots\Screenshot 2026-08-28 113331.png
+Images/Screenshot 2026-08-28 113331.png
 
 ##Live website
 https://mathekasarah-prog.github.io/Tamtam_Delicacies/
